@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class Application {
-    @Value("${application.name}")
-    private String applicationName;
+  @Value("${application.name}")
+  private String applicationName;
 
-    @Value("${application.version}")
-    private String applicationVersion;
+  @Value("${application.version}")
+  private String applicationVersion;
 
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+  }
 
-    @GetMapping("/hello")
-    public String helloWorld(){
-        return String.format("%s (v%s)", applicationName, applicationVersion) ;
-    }
+  @GetMapping("/hello")
+  public String helloWorld() {
+    return String.format("%s (v%s)", applicationName, applicationVersion);
+  }
 }

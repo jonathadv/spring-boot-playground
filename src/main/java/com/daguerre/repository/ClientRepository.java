@@ -5,6 +5,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class ClientRepository {
-    public void persistClient(Client client) {
-    }
+  public void persistClient(Client client) {}
 }
