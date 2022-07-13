@@ -1,0 +1,11 @@
+application:
+  name: "Sales System"
+  version: "1.0"
+
+server:
+  servlet:
+    context-path: "/sales"
+
+spring:
+  profiles:
+    active: "dev"

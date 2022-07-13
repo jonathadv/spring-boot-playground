@@ -1,0 +1,7 @@
+application:
+  name: "Sales System Development"
+  version: "1.0"
+
+server:
+  servlet:
+    context-path: "/sales"
