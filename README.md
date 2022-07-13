@@ -10,3 +10,12 @@ $ sdk install java 17-open
 $ sdk install maven
 ```
 
+**Install Google Java Style git hook**
+```bash
+$ mvn git-code-format:install-hooks
+```
+
+**Run Google Java Style manually**
+```bash
+$ mvn git-code-format:format-code
+```
