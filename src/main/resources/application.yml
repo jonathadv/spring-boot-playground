@@ -1,10 +1,10 @@
 application:
-  name: "Sales System"
+  name: "Playground System Default"
   version: "1.0"
 
 server:
   servlet:
-    context-path: "/sales"
+    context-path: "/play"
 
 spring:
   profiles:
