@@ -1,6 +1,6 @@
 package com.daguerre.service;
 
-import com.daguerre.model.Client;
+import com.daguerre.domain.animal.Client;
 import com.daguerre.repository.ClientRepository;
 import org.springframework.stereotype.Service;
 

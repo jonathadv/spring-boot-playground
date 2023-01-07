@@ -1,4 +1,4 @@
-package com.daguerre.model;
+package com.daguerre.domain.animal;
 
 public class Client {
   private String name;

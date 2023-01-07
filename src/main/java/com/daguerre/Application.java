@@ -1,6 +1,6 @@
 package com.daguerre;
 
-import com.daguerre.model.Animal;
+import com.daguerre.domain.animal.Animal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
