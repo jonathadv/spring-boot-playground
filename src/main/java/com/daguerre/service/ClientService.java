@@ -1,6 +1,6 @@
 package com.daguerre.service;
 
-import com.daguerre.domain.animal.Client;
+import com.daguerre.domain.sales.ClientEntity;
 import com.daguerre.repository.ClientRepository;
 import org.springframework.stereotype.Service;
 
@@ -13,10 +13,10 @@ public class ClientService {
     this.repository = repository;
   }
 
-  public void saveClient(Client client) {
-    validateClient(client);
-    repository.persistClient(client);
+  public void save(ClientEntity clientEntity) {
+    validateClient(clientEntity);
+    repository.save(clientEntity);
   }
 
-  public void validateClient(Client client) {}
+  public void validateClient(ClientEntity clientEntity) {}
 }

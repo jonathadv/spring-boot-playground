@@ -1,5 +1,3 @@
 package com.daguerre.domain.animal;
 
-
-public class Dog {
-}
+public class Dog {}
