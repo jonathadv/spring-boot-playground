@@ -14,9 +14,10 @@ public class ClientService {
   }
 
   public void save(ClientEntity clientEntity) {
-    validateClient(clientEntity);
     repository.save(clientEntity);
   }
 
-  public void validateClient(ClientEntity clientEntity) {}
+  public void saveAll(Iterable<ClientEntity> clientEntity) {
+    repository.saveAll(clientEntity);
+  }
 }
