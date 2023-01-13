@@ -1,6 +1,6 @@
-# SpringBoot Playground
+# Spring Boot Playground
 
-**Install Open JDK 17 with sdkman**
+**Install Open JDK 17 with [sdkman](https://sdkman.io/)**
 ```bash
 $ sdk install java 17-open
 ```
