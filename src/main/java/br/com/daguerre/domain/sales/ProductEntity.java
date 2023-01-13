@@ -1,4 +1,4 @@
-package com.daguerre.domain.sales;
+package br.com.daguerre.domain.sales;
 
 import java.math.BigDecimal;
 import javax.persistence.Entity;

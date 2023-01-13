@@ -1,6 +1,6 @@
-package com.daguerre.repository;
+package br.com.daguerre.repository;
 
-import com.daguerre.domain.sales.ClientEntity;
+import br.com.daguerre.domain.sales.ClientEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

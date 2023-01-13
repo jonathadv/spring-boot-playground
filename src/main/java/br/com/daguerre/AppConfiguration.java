@@ -1,9 +1,9 @@
-package com.daguerre;
+package br.com.daguerre;
 
-import com.daguerre.domain.sales.ClientEntity;
-import com.daguerre.domain.sales.ProductEntity;
-import com.daguerre.service.ClientService;
-import com.daguerre.service.ProductService;
+import br.com.daguerre.domain.sales.ClientEntity;
+import br.com.daguerre.domain.sales.ProductEntity;
+import br.com.daguerre.service.ClientService;
+import br.com.daguerre.service.ProductService;
 import java.math.BigDecimal;
 import java.util.List;
 import org.springframework.boot.CommandLineRunner;

@@ -1,4 +1,4 @@
-package com.daguerre.domain.animal;
+package br.com.daguerre.domain.animal;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

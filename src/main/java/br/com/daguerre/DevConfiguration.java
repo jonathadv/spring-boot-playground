@@ -1,4 +1,4 @@
-package com.daguerre;
+package br.com.daguerre;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

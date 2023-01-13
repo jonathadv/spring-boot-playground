@@ -1,7 +1,5 @@
-package com.daguerre.domain.sales;
+package br.com.daguerre.domain.sales;
 
-import java.math.BigDecimal;
-import java.time.Instant;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,20 +13,23 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "product_order")
+@Table(name = "order_item")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class ProductOrderEntity {
+public class OrderItemEntity {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
 
   @ManyToOne
-  @JoinColumn(name = "client_id")
-  private ClientEntity clientEntity;
+  @JoinColumn(name = "order_id")
+  private ProductOrderEntity productOrderEntity;
 
-  private Instant date;
+  @ManyToOne
+  @JoinColumn(name = "product_id")
+  private ProductEntity productEntity;
 
-  private BigDecimal total;
+  private Integer quantity;
 }

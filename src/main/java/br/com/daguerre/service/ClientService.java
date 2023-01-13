@@ -1,7 +1,7 @@
-package com.daguerre.service;
+package br.com.daguerre.service;
 
-import com.daguerre.domain.sales.ClientEntity;
-import com.daguerre.repository.ClientRepository;
+import br.com.daguerre.domain.sales.ClientEntity;
+import br.com.daguerre.repository.ClientRepository;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
